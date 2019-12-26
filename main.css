@@ -1,0 +1,30 @@
+body{
+    font-size: 31px;
+    background-color: rgba(56, 30, 44, 0.9);
+    text-align: center;
+}
+
+input{
+    width: 400px;
+    height: 20px;
+}
+
+.parent {
+    margin-top: 30px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 35px;
+}
+
+.parent div{
+    border: 2px solid green;
+    background-color: black;
+    color: white;
+}
+
+.parent div:hover{
+    border: 2px solid purple;
+}
